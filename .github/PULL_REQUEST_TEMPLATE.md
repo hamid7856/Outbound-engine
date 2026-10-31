@@ -8,6 +8,7 @@
 
 ## Checklist
 - [ ] `CHANGELOG.md` updated under Unreleased
+- [ ] `STATUS.md` updated (next steps and a session log entry)
 - [ ] Docs updated (README / docs/) if behaviour, outputs or setup changed
 - [ ] No change to output column names or order (or it's a major version bump)
 - [ ] ADR added if a design decision or diff rule changed

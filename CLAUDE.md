@@ -1,6 +1,28 @@
 # CLAUDE.md
 
-These are instructions for Claude, or any AI assistant, working in this repository. Team-wide rules are in the `handbook` repo (`CLAUDE.md` and `standards/`). This file only adds rules specific to StackRadar.
+These are instructions for Claude, or any AI assistant, working in this repository. Team-wide rules are in the `handbook` repo (`CLAUDE.md` and `standards/`). This file only adds rules specific to StackRadar. If this session can't reach the `handbook` repo, this file plus CONTEXT.md and STATUS.md are enough to work safely.
+
+## Start of every session (do this before anything else)
+
+1. Read **CONTEXT.md**, which has the goals and settled decisions, and **STATUS.md**, which has the current state, next steps and who's working on what.
+2. Run `git pull`, then check the open issues and pull requests (`gh issue list`, `gh pr list`, or ask the user).
+3. Pick **one** task, from STATUS.md's "Up next" or an open issue. Then claim it **on GitHub**, because edits to STATUS.md on a branch can't be seen by other sessions until they're merged:
+   - If the task has no issue, create one.
+   - Assign the issue, and comment `Claimed by <person>'s <Cowork/Claude Code> session, branch <name>`.
+   - Create that branch, push it, and open a **draft pull request** linked to the issue straight away.
+   - If an issue is already assigned, or has an open pull request, another session owns it. **Don't start it**. Ask the user.
+4. Tell the user in two or three lines what you understand the current state to be and what you're about to do. Wait for confirmation if anything is unclear.
+
+## End of every session
+
+1. Update **STATUS.md** in the same pull request as your work:
+   - Move finished items from "Up next" to done.
+   - Close or update the issue.
+   - Note any blockers.
+   - Add a short dated entry at the top of the session log covering what you did, what you decided and what's left.
+2. If a goal or decision changed, update **CONTEXT.md** and add an ADR.
+3. Push your branch and open a pull request, or say clearly that the work is unpushed and where it is.
+4. Finish by telling the user, in plain language, what changed and what they need to do next.
 
 ## What this repo is
 

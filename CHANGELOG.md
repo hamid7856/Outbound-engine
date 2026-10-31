@@ -4,6 +4,10 @@ All notable changes to this project are recorded here. The format follows [Keep 
 
 ## [Unreleased]
 
+### Added
+
+- Added CONTEXT.md and STATUS.md as shared memory for every Claude session, plus start/end-of-session rules in CLAUDE.md.
+
 ### Changed
 
 - Added links to the GitHub repo (hamid7856/Outbound-engine) in the README, runbook, `pyproject.toml` and CODEOWNERS.

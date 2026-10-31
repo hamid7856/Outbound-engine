@@ -40,6 +40,8 @@ stackradar --tranco-top 0 --limit 50        # scan domains/custom.txt
 
 | Doc | For |
 |---|---|
+| [CONTEXT.md](CONTEXT.md) | Goals and decisions so far. **Read first** |
+| [STATUS.md](STATUS.md) | What's happening now, what's next, who's on what |
 | [docs/runbook.md](docs/runbook.md) | First-time setup, running scans, troubleshooting |
 | [docs/architecture.md](docs/architecture.md) | How the code is organised and how data flows |
 | [docs/detection.md](docs/detection.md) | Detection rules, change rules, how to add a tool |
