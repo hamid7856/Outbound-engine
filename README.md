@@ -4,6 +4,8 @@ StackRadar finds companies that have **just started using Zendesk, Intercom, Gor
 
 It runs free every week on GitHub Actions and needs no paid data providers.
 
+**Repo:** https://github.com/hamid7856/Outbound-engine  ·  **Results:** [`scan-results` branch](https://github.com/hamid7856/Outbound-engine/tree/scan-results/data)  ·  **Runs:** [Actions](https://github.com/hamid7856/Outbound-engine/actions)
+
 > Part of the Smart Instinct GTM toolkit. Team standards live in the [`handbook`](../../../handbook) repo.
 
 ## What it does
@@ -21,7 +23,7 @@ It then compares the results with previous weeks:
 
 ## Where the results are
 
-Results are saved on the **`scan-results`** branch, not on `main`. Start with **`data/latest_new_adopters.csv`**. What each file and column means is explained in [docs/output-files.md](docs/output-files.md).
+Results are saved on the **[`scan-results`](https://github.com/hamid7856/Outbound-engine/tree/scan-results/data)** branch, not on `main`. Start with **`data/latest_new_adopters.csv`**. What each file and column means is explained in [docs/output-files.md](docs/output-files.md).
 
 The first scan only records a baseline. New adopters start appearing from the second weekly run.
 

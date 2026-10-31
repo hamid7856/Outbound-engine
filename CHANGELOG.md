@@ -4,6 +4,10 @@ All notable changes to this project are recorded here. The format follows [Keep 
 
 ## [Unreleased]
 
+### Changed
+
+- Added links to the GitHub repo (hamid7856/Outbound-engine) in the README, runbook, `pyproject.toml` and CODEOWNERS.
+
 ## [0.1.0] - 2026-10-31
 
 ### Added
@@ -14,3 +18,6 @@ All notable changes to this project are recorded here. The format follows [Keep 
 - Domain sources: Tranco top-N (kept fixed between runs), `domains/custom.txt` and CSV/TXT files in `domains/imports/`.
 - A weekly GitHub Actions scan that writes results to the `scan-results` branch.
 - CI on every pull request (ruff and pytest), Dependabot, and project documentation.
+
+[Unreleased]: https://github.com/hamid7856/Outbound-engine/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/hamid7856/Outbound-engine/releases/tag/v0.1.0

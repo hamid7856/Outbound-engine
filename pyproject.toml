@@ -13,6 +13,11 @@ dependencies = [
     "dnspython>=2.6,<3",
 ]
 
+[project.urls]
+Repository = "https://github.com/hamid7856/Outbound-engine"
+Issues = "https://github.com/hamid7856/Outbound-engine/issues"
+Changelog = "https://github.com/hamid7856/Outbound-engine/blob/main/CHANGELOG.md"
+
 [project.optional-dependencies]
 dev = ["pytest>=8", "ruff>=0.6"]
 

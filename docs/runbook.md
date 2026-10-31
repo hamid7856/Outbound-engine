@@ -2,17 +2,17 @@
 
 ## First-time setup
 
-1. Push this repo to the `smart-instinct` GitHub organization. The handbook's `setup/github-org-setup.md` walks through it.
+1. The repo lives at https://github.com/hamid7856/Outbound-engine. If it's ever moved to a GitHub organization, update the links in `README.md`, `pyproject.toml` and `.github/CODEOWNERS`. The handbook's `setup/github-org-setup.md` covers the move.
 2. In **Settings → Actions → General → Workflow permissions**, choose **Read and write permissions**. The scan needs this to push to `scan-results`.
 3. In **Settings → Rules → Rulesets**, protect `main`: require a pull request, require the `CI` checks to pass, and block force pushes. Don't protect `scan-results` this way, because the bot must be able to push to it.
-4. Test it: go to **Actions → Weekly scan → Run workflow** and set `limit` to `300`. It should finish in a few minutes and create the `scan-results` branch.
+4. Test it: go to **[Actions](https://github.com/hamid7856/Outbound-engine/actions) → Weekly scan → Run workflow** and set `limit` to `300`. It should finish in a few minutes and create the `scan-results` branch.
 5. Run the baseline: **Run workflow** again with `limit` set to `0`. After that, the scan runs every Monday at 01:17 UTC.
 
 ## Everyday tasks
 
 | Task | How |
 |---|---|
-| See this week's new adopters | `scan-results` branch → `data/latest_new_adopters.csv` |
+| See this week's new adopters | [`latest_new_adopters.csv`](https://github.com/hamid7856/Outbound-engine/blob/scan-results/data/latest_new_adopters.csv) on the `scan-results` branch |
 | Add your own target companies | Open a pull request adding lines to `domains/custom.txt` |
 | Add an export (Apollo, Vibe, LinkedIn…) | Open a pull request adding a CSV to `domains/imports/`. It needs a `domain`, `website` or `url` column |
 | Scan more or fewer top sites | Run the workflow with `tranco_top`; for a permanent change, edit the default in `weekly-scan.yml` |
