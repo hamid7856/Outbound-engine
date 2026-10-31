@@ -1,0 +1,4 @@
+# Your own target companies, one website per line. Lines starting with # are ignored.
+# Examples:
+# acme.com
+# https://www.examplestore.com

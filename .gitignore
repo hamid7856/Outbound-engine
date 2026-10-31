@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+# scan output is stored on the scan-results branch, never on main
+/data/
+/results/
+scan.log
